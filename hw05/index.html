@@ -153,7 +153,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-透過作業五我學習到如何訓練YOLO模型，也學會使用各個不同大小版本的YOLO以及調整參數。此外，我了解了資料集標註格式的重要性，能夠依據任務需求調整學習率、批次大小與訓練輪數，進而提升模型準確率與效能表現，對物件偵測有更深的理解。
+透過作業五我學習到如何訓練YOLO模型，也學會使用各個不同大小版本的YOLO以及調整參數。此外，我在Medium不管怎麼調分數始終差一點，所以為避免繼續浪費colab時間只能挑一個較好結果繳交。
     </div>
   </div>
 
@@ -174,12 +174,12 @@
           <td>Simple baseline - 完成 baseline Colab 訓練得到訓練分數及訓練權重</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox2" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox2"></td>
           <td id='m2'>4</td>
           <td>Medium baseline - 調整訓練筆數、Epochs 或其他參數得到比 Simple baseline 更高的分數</td>
         </tr>
         <tr>
-          <td><input type="checkbox" class="flipswitch" id="myCheckbox3" checked></td>
+          <td><input type="checkbox" class="flipswitch" id="myCheckbox3"></td>
           <td id='m3'>2</td>
           <td>Strong baseline - 使用不同版本、大小模型進行訓練並繳交 Colab</td>
         </tr>
@@ -204,19 +204,8 @@
           <img src="Simple.png" width="100%" height="auto">
         </tr>
         <tr>
-          <td> Medium Baseline mAP50 分數圖片，使用Baseline模型接續訓練20個 Epochs 得到更高分
+          <td> Medium Baseline mAP50 分數圖片，Epochs改40，image size改512
           <img src="Medium.png" width="100%" height="auto">
-        </tr>
-        <tr>
-          <td> Strong Baseline <br>
-          Colab連結: 
-          <a href="https://colab.research.google.com/drive/1bo_LAH8mEjYh1wawpiVW8AHl2bzxCZWE?usp=sharing">
-          https://colab.research.google.com/drive/1bo_LAH8mEjYh1wawpiVW8AHl2bzxCZWE?usp=sharing
-          </a> <br>
-          使用YOLOv12m
-          <img src="v12m.png" width="100%" height="auto">
-          使用YOLOv9t
-          <img src="v9t.png" width="100%" height="auto">
         </tr>
       </table>
     </div>
@@ -272,5 +261,6 @@
 
 </body>
 </html>
+
 
 
